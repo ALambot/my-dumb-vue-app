@@ -1,0 +1,18 @@
+{
+  "name": "my-dumb-vue-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "my-dumb-vue-lib": "git+https://github.com/ALambot/my-dumb-vue-lib.git",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9"
+  }
+}
